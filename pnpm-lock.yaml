@@ -125,6 +125,9 @@ importers:
       satori-html:
         specifier: ^0.3.2
         version: 0.3.2
+      sharp:
+        specifier: ^0.34.4
+        version: 0.34.4
       tailwindcss:
         specifier: ^4.1.13
         version: 4.1.14
@@ -2938,8 +2941,7 @@ snapshots:
 
   '@fontsource-variable/jetbrains-mono@5.2.8': {}
 
-  '@img/colour@1.0.0':
-    optional: true
+  '@img/colour@1.0.0': {}
 
   '@img/sharp-darwin-arm64@0.34.4':
     optionalDependencies:
@@ -5354,7 +5356,6 @@ snapshots:
       '@img/sharp-win32-arm64': 0.34.4
       '@img/sharp-win32-ia32': 0.34.4
       '@img/sharp-win32-x64': 0.34.4
-    optional: true
 
   shiki@3.13.0:
     dependencies:
