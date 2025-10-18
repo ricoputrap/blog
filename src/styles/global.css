@@ -302,6 +302,11 @@ article img {
     @apply my-6.5;
   }
 
+  /* Remove top margin from first paragraph on non-mobile devices */
+  & > p:first-of-type {
+    @apply md:mt-0;
+  }
+
   b,
   strong,
   th,
