@@ -102,7 +102,7 @@ if (postData.tags && postData.tags.length > 0) {
     <!-- <hr class="border-accent/10 border-2 rounded-xl hidden lg:block" /> -->
     <div class="flex flex-col xl:gap-1 2xl:gap-18 xl:flex-row xl:items-start">
       {postData.toc && headings.length > 0 && <TableOfContents headings={headings} />}
-      <div class="mb-5 xl:min-w-full 2xl:min-w-full prose">
+      <div class="mb-5 xl:min-w-full 2xl:min-w-full prose md:columns-2 md:gap-8 md:mt-4">
         <PostContent />
       </div>
     </div>
