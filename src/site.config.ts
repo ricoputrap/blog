@@ -2,14 +2,14 @@ import type { SiteConfig } from '~/types'
 
 const config: SiteConfig = {
   // Absolute URL to the root of your published site, used for generating links and sitemaps.
-  site: 'https://multiterm.stelclementine.com',
+  site: 'https://ricoputra.netlify.app',
   // The name of your site, used in the title and for SEO.
-  title: 'MultiTerm',
+  title: 'RICO',
   // The description of your site, used for SEO and RSS feed.
   description:
-    'A coder-ready Astro blog theme with 59 of your favorite color schemes to choose from',
+    'A fullstack developer blog by Rico Putra Pradana, sharing insights on web development, programming, and technology trends.',
   // The author of the site, used in the footer, SEO, and RSS feed.
-  author: 'Katy Kookaburra',
+  author: 'Rico Putra Pradana',
   // Keywords for SEO, used in the meta tags.
   tags: ['Astro', 'Terminal', 'Theme', 'MultiTerm', 'stelcodes'],
   // Path to the image used for generating social media previews.
@@ -37,12 +37,12 @@ const config: SiteConfig = {
       url: '/about',
     },
     {
-      name: 'Archive',
+      name: 'Posts',
       url: '/posts',
     },
     {
       name: 'GitHub',
-      url: 'https://github.com/stelcodes/multiterm-astro',
+      url: 'https://github.com/ricoputrap/',
       external: true,
     },
   ],
