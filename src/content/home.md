@@ -2,7 +2,7 @@
 avatarImage:
   src: './avatar.jpg'
   alt: 'My avatar'
-githubCalendar: 'stelcodes'
+githubCalendar: 'ricoputrap'
 ---
 
-Welcome to the example site. This site is meant to show off my custom Astro theme/template **MultiTerm** which creates a coder-ready blog complete with an interactive theme changer, RSS, sitemap, tagging, and markdown extensions.
+Welcome! I'm a **Full Stack Developer** and **Development Team Lead** at M+ Software with nearly 5 years of experience building SARA, an SaaS for managing day-to-day hotel operations using **Next.js**, TypeScript, React, and PHP. I use this site to document my learnings and projects as I explore various technologies and build new things.
