@@ -210,7 +210,7 @@ article img {
   h4,
   h5,
   h6 {
-    @apply my-6.5 font-semibold;
+    @apply mb-3 font-semibold;
 
     a {
       @apply underline-offset-3 text-inherit no-underline;
@@ -332,10 +332,14 @@ article img {
   }
 
   figure:not(.expressive-code figure) {
-    @apply block mx-auto rounded-xl py-2;
+    @apply flex flex-col mx-auto rounded-xl pt-0 pb-2 !mb-6.5 gap-0;
+
+    img {
+      @apply !mb-0 !mt-0;
+    }
 
     figcaption {
-      @apply text-center italic;
+      @apply text-center italic mt-0 pt-2;
     }
   }
 
