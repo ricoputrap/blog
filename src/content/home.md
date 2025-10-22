@@ -1,6 +1,6 @@
 ---
 avatarImage:
-  src: './avatar.jpg'
+  src: './profile.jpeg'
   alt: 'My avatar'
 githubCalendar: 'ricoputrap'
 ---
