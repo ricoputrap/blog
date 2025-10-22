@@ -5,11 +5,11 @@ title: About Me
 
 Hi, I'm **Rico Putra Pradana**, a **Full Stack Developer** and **Development Team Lead** at M+ Software with nearly 5 years of hands-on experience in building and scaling web applications.
 
-I currently lead the development of **SARA**, a comprehensive SaaS platform designed to streamline day-to-day hotel operations. Working with technologies like **Next.js**, **TypeScript**, **React**, and **PHP**, I've helped create solutions that make hotel management more efficient and user-friendly.
+I currently lead the development of **SARA**, a comprehensive SaaS platform designed to streamline **day-to-day hotel operations**. Working with technologies like **Next.js**, **TypeScript**, **React**, and **PHP**, I've helped create solutions that make **hotel management more efficient and user-friendly**.
 
 ## What I Do
 
-As a team lead, I balance technical development with mentoring and guiding my team. I'm passionate about writing clean, maintainable code and implementing best practices that help our team deliver high-quality software consistently.
+As a team lead, I balance **technical development** with mentoring and guiding my team. I'm passionate about writing clean, maintainable code and implementing best practices that help our team deliver high-quality software consistently.
 
 ## Beyond Code
 
