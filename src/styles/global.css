@@ -211,9 +211,15 @@ article img {
   h5,
   h6 {
     @apply mb-3 font-semibold;
+    break-after: avoid;
+    page-break-after: avoid;
 
     a {
       @apply underline-offset-3 text-inherit no-underline;
+    }
+
+    &:first-child {
+      @apply !mt-0;
     }
   }
 
