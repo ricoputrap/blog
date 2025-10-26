@@ -45,15 +45,34 @@ Observability provides **context** allowing you to know **why** something is hap
 
 ![Issue Context](./issue-context.png 'Issue Context')
 
-# 5. Key Observability Pillars
-1. **Logs**: Detailed records of events that happen within your system, providing insights into specific actions and errors.
-2. **Metrics**: Quantitative data that measures various aspects of system performance, such as response times, error rates, and resource utilization.
-3. **Traces**: End-to-end records of requests as they flow through different services, helping to identify bottlenecks and latency issues.
+Here are the three key pillars of observability:
+
+### 5.1. Logs
+- Structured logs (JSON format) are preferred over plain text
+- Should include context: timestamps, trace IDs, user IDs, request IDs
+- Help answer: "What exactly happened at this specific moment?"
+- Example: A log showing a database query took 5 seconds, which user triggered it, and what query was executed
+
+### 5.2. Metrics
+- Time-series data showing trends over time
+- Aggregated measurements (averages, percentiles, counts)
+- Help answer: "Is this behavior normal or unusual?"
+- Example: 95th percentile response time increased from 200ms to 2s
+
+### 5.3. Traces
+- Show the journey of a single request across microservices
+- Reveal dependencies and bottlenecks
+- Help answer: "Where exactly did this request slow down?"
+- Example: A request spent 80% of its time waiting for a third-party API
 
 ![Structured Logs Example](./structured-logs.png 'Structured Logs Example')
-
 
 ## 6. Key Differences Between Monitoring and Observability
 1. Monitoring is your **early warning system**, but observability is your **detective** that helps you **investigate and solve problems**.
 2. Monitoring tells you if **something is wrong** (e.g. high CPU usage), while observability helps you understand **why it's wrong** (e.g. a memory leak in a specific service).
 3. Monitoring is the "**what**" (e.g. high error rates) and "**when**" (e.g. the error occurred at 2 PM), while observability is the "**why**" (e.g. a recent deployment introduced a bug) and "**how**" (e.g. the specific code path that led to the error).
+
+## 7. Real World Example
+When a user reports that the app is slow:
+- **Monitoring** tells you: CPU is at 85%, response time is high
+- **Observability** tells you: User ID 12345's request to `/checkout` took 10s because the payment service called an external API that timed out, which happened after deploying version 2.3.1
